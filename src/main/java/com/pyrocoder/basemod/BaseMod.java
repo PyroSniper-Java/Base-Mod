@@ -49,20 +49,21 @@ public class BaseMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == ModCreativeModeTabs.STELLALUNITE_ITEMS_TAB.getKey()) {
-            event.accept(ModItems.STELLALUNITE);
-            event.accept(ModItems.RAW_STELLALUNITE);
-            event.accept(ModItems.STELLALUNITE_BONE);
+        if (event.getTabKey() == ModCreativeModeTabs.MOD_ITEMS_TAB.getKey()) {
+            event.accept(ModItems.GEM);
+            event.accept(ModItems.CUSTOM_BONE);
 
             event.accept(ModItems.WAND);
         }
 
-        if (event.getTabKey() == ModCreativeModeTabs.STELLALUNITE_BLOCKS_TAB.getKey()) {
-            event.accept(ModBlocks.STELLALUNITE_BLOCK);
-            event.accept(ModBlocks.RAW_STELLALUNITE_BLOCK);
-            event.accept(ModBlocks.STELLALUNITE_ORE);
-            event.accept(ModBlocks.STELLALUNITE_DEEPSLATE_ORE);
+        if (event.getTabKey() == ModCreativeModeTabs.MOD_BLOCKS_TAB.getKey()) {
+            event.accept(ModBlocks.GEM_BLOCK);
             event.accept(ModBlocks.MAGIC_BLOCK);
+        }
+
+        if (event.getTabKey() == ModCreativeModeTabs.MOD_FOODS_TAB.getKey()) {
+            event.accept(ModItems.BONE_IN_STEAK);
+            event.accept(ModItems.BONE_MARROW);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call

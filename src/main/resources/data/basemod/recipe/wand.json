@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "basemod:stellalunite"
+      "item": "basemod:gem"
     },
     "B": {
-      "item": "basemod:stellalunite_bone"
+      "item": "basemod:custom_bone"
     }
   },
   "pattern":[

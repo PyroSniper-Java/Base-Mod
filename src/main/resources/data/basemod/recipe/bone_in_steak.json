@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "basemod:stellalunite_bone"
+      "item": "basemod:custom_bone"
     },
     "B": {
       "item": "basemod:bone_marrow"
@@ -19,6 +19,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "basemod:inbone_steak"
+    "id": "basemod:bone_in_steak"
   }
 }

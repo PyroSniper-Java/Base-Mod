@@ -5,7 +5,7 @@
   "experience": 1000,
   "group": "bone_marrow",
   "ingredient": {
-    "item": "basemod:stellalunite_bone"
+    "item": "basemod:custom_bone"
   },
   "result": {
     "id": "basemod:bone_marrow"

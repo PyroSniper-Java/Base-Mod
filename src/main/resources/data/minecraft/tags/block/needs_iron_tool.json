@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "basemod:raw_stellalunite_block",
     "basemod:stellalunite_block",
     "basemod:magic_block"
   ]

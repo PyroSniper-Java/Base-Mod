@@ -14,17 +14,25 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BaseMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> STELLALUNITE_ITEMS_TAB = CREATIVE_MODE_TABS.register("stellalunite_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STELLALUNITE_BONE.get()))
-                    .title(Component.translatable("creativetab.basemod.stellalunite_items"))
+    public static final RegistryObject<CreativeModeTab> MOD_ITEMS_TAB = CREATIVE_MODE_TABS.register("mod_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CUSTOM_BONE.get()))
+                    .title(Component.translatable("creativetab.basemod.mod_items"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                     }).build());
 
-    public static final RegistryObject<CreativeModeTab> STELLALUNITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("stellalunite_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.STELLALUNITE_BLOCK.get()))
-                    .withTabsBefore(STELLALUNITE_ITEMS_TAB.getId())
-                    .title(Component.translatable("creativetab.basemod.stellalunite_blocks"))
+    public static final RegistryObject<CreativeModeTab> MOD_BLOCKS_TAB = CREATIVE_MODE_TABS.register("mod_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.GEM_BLOCK.get()))
+                    .withTabsBefore(MOD_ITEMS_TAB.getId())
+                    .title(Component.translatable("creativetab.basemod.mod_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> MOD_FOODS_TAB = CREATIVE_MODE_TABS.register("mod_foods_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BONE_IN_STEAK.get()))
+                    .withTabsBefore(MOD_BLOCKS_TAB.getId())
+                    .title(Component.translatable("creativetab.basemod.mod_foods"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                     }).build());

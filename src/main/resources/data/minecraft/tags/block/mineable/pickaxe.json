@@ -1,10 +1,7 @@
 {
   "replace": false,
   "values": [
-  "basemod:raw_stellalunite_block",
   "basemod:stellalunite_block",
-  "basemod:stellalunite_deepslate_ore",
-  "basemod:stellalunite_ore",
   "basemod:magic_block"
   ]
 }

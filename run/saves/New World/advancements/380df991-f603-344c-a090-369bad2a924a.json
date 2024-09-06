@@ -11,5 +11,17 @@
     },
     "done": false
   },
+  "minecraft:adventure/fall_from_world_height": {
+    "criteria": {
+      "fall_from_world_height": "2024-09-06 19:42:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-09-06 19:41:48 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

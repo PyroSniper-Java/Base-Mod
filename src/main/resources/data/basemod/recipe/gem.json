@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "basemod:stellalunite_block"
+      "item": "basemod:gem_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "basemod:stellalunite"
+    "id": "basemod:gem"
   }
 }

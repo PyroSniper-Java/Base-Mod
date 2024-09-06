@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "basemod:stellalunite"
+      "item": "basemod:gem"
     }
   },
   "pattern":[
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "basemod:stellalunite_block"
+    "id": "basemod:gem_block"
   }
 }

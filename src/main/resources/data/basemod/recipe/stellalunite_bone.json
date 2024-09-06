@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "basemod:stellalunite"
+      "item": "basemod:gem"
     },
     "C": {
       "item": "minecraft:bone"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "basemod:stellalunite_bone"
+    "id": "basemod:custom_bone"
   }
 }

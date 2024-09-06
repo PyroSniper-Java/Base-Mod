@@ -22,7 +22,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, BaseMod.MOD_ID);
 
     //Custom Block With No Advanced Properties
-    public static final RegistryObject<Block> STELLALUNITE_BLOCK = registerBlock("stellalunite_block",
+    public static final RegistryObject<Block> GEM_BLOCK = registerBlock("gem_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 

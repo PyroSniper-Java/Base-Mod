@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "basemod:raw_stellalunite_block"
+          "name": "basemod:gem_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "basemod:blocks/raw_stellalunite_block"
+  "random_sequence": "basemod:blocks/gem_block"
 }

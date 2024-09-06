@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "basemod:item/inbone_steak",
-		"particle": "basemod:item/inbone_steak"
+		"0": "basemod:item/bone_in_steak",
+		"particle": "basemod:item/bone_in_steak"
 	},
 	"elements": [
 		{
