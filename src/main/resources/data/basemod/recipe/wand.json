@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "basemod:stellalunite"
+    },
+    "B": {
+      "item": "basemod:stellalunite_bone"
+    }
+  },
+  "pattern":[
+    "AAA",
+    " B ",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "basemod:wand"
+  }
+}

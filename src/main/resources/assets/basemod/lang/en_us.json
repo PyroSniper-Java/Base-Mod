@@ -1,0 +1,18 @@
+{
+  "item.basemod.stellalunite": "Stellalunite Gem",
+  "item.basemod.raw_stellalunite": "Raw Stellalunite",
+  "item.basemod.stellalunite_bone": "Stellalunite Bone",
+  "item.basemod.wand": "Stellalunite Wand",
+  "item.basemod.inbone_steak": "Inbone Steak",
+  "item.basemod.bone_marrow": "Bone Marrow",
+
+  "block.basemod.stellalunite_block": "Block of Stellalunite",
+  "block.basemod.raw_stellalunite_block": "Raw Stellalunite",
+  "block.basemod.stellalunite_ore": "Stellalunite Ore",
+  "block.basemod.stellalunite_deepslate_ore": "Deepslate Stellalunite Ore",
+  "block.basemod.magic_block": "Magic Block",
+
+  "creativetab.basemod.stellalunite_items": "Stellalunite Items",
+  "creativetab.basemod.stellalunite_blocks": "Stellalunite Blocks",
+  "creativetab.basemod.stellalunite_foods": "Stellalunite Foods"
+}

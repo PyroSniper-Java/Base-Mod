@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "basemod:stellalunite_bone"
+    },
+    "B": {
+      "item": "basemod:bone_marrow"
+    },
+    "C": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern":[
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "basemod:inbone_steak"
+  }
+}

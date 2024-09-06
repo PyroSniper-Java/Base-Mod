@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 20,
+  "experience": 1000,
+  "group": "stellalunite",
+  "ingredient": {
+    "item": "basemod:raw_stellalunite"
+  },
+  "result": {
+    "id": "basemod:stellalunite"
+  }
+}
