@@ -21,22 +21,12 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, BaseMod.MOD_ID);
 
+    //Custom Block With No Advanced Properties
     public static final RegistryObject<Block> STELLALUNITE_BLOCK = registerBlock("stellalunite_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
-    public static final RegistryObject<Block> RAW_STELLALUNITE_BLOCK = registerBlock("raw_stellalunite_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops()));
-
-    public static final RegistryObject<Block> STELLALUNITE_ORE = registerBlock("stellalunite_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 4), BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
-    public static final RegistryObject<Block> STELLALUNITE_DEEPSLATE_ORE = registerBlock("stellalunite_deepslate_ore",
-            () -> new DropExperienceBlock(UniformInt.of(2, 8), BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
+    //Advanced Block
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops()));
