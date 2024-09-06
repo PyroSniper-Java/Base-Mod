@@ -1,6 +1,7 @@
 # Base-Mod
 The Template For Minecraft 1.21.1 Mods
 You Can Copy This Repository To Create Mods
+Please Include My Profile In The Credits Should You Choose To Publish Your Mod
 
 # Required Software:
 - Java 1.21
